@@ -8,11 +8,10 @@ on:
 
 jobs:
   build:
-       runs-on: self-hosted 
-
+    runs-on: self-hosted
     steps:
-      - name: Checkout do código
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build Docker image
+      - name: Build Docker
         run: docker build -t my-app .
