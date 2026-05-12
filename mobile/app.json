@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Congregation Manager Mobile",
+    "slug": "congregation-manager-mobile",
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0",
+    "platforms": ["android"],
+    "android": {
+      "package": "com.congregation.manager"
+    }
+  }
+}
