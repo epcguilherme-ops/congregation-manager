@@ -6,6 +6,13 @@ on:
   pull_request:
     branches: [ main ]
 
+jobs:
+  build:
+       runs-on: self-hosted 
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
       - name: Build Docker image
         run: docker build -t my-app .
-  
